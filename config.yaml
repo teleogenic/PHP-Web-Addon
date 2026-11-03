@@ -1,0 +1,13 @@
+name: PHP Web
+slug: phpweb
+version: "1.0.0"
+description: Enkel PHP-webbserver
+
+startup: services
+boot: auto
+
+ports:
+  8080/tcp: 8080
+
+arch:
+  - aarch64
